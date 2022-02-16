@@ -115,4 +115,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-alias nemo="source $HOME/nemo/nemo_start.sh" 
+alias nemo="source $HOME/nemo/nemo_start.sh"
+
+# Config Java
+JAVA_HOME=/home/mikeuaike/apps/jdk11
+export JAVA_HOME
+
+PATH=$PATH:$JAVA_HOME/bin
+export PATH 
