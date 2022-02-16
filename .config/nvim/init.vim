@@ -27,6 +27,7 @@ set expandtab
 set shell=fish
 set backupskip=/tmp/*,/private/tmp/*
 
+
 " incremental substitution (neovim)
 if has('nvim')
   set inccommand=split
@@ -127,6 +128,7 @@ endif
 runtime ./maps.vim
 "}}}
 
+let g:python_host_prog = '/usr/bin/python3'
 " Syntax theme "{{{
 " ---------------------------------------------------------------------
 
@@ -152,3 +154,4 @@ set exrc
 "}}}
 
 " vim: set foldmethod=marker foldlevel=0:
+
