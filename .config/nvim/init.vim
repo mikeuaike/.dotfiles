@@ -144,6 +144,7 @@ if exists("&termguicolors") && exists("&winblend")
   let g:molokai_termtrans=1
   runtime ./colors/molokai.vim
   colorscheme molokai
+  let g:airline_theme='molokai'
 endif
 
 "}}}
