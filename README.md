@@ -1,7 +1,11 @@
 # .dotfiles
 My NeoVim Setup!
 
-There's nothing really new to it by now, since it's a sheer copy of @craftzdog's Youtube Tutorial.
-Expect for a lot of changes here very soon!!
+Most of the setup came from @craftzdog's Youtube Tutorial
+
+--- Notable Changes ---
+➡️ Install Python3 LSP (for syntax & format checks) ~ensure pythonic coding 
+➡️ Install HighlightYank Plugin
+-----------------------
 
 v.f.f
