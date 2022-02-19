@@ -7,6 +7,7 @@ call plug#begin()
   Plug 'tpope/vim-rhubarb'
   Plug 'cohama/lexima.vim'
   Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
   Plug 'machakann/vim-highlightedyank'
 
 if has("nvim")

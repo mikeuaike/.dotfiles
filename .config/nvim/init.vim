@@ -142,9 +142,9 @@ if exists("&termguicolors") && exists("&winblend")
   set background=dark
   " Use molokai
   let g:molokai_termtrans=1
-  runtime ./colors/molokai.vim
-  colorscheme molokai
-  let g:airline_theme='molokai'
+  runtime ./colors/vividchalk.vim
+  colorscheme vividchalk
+  let g:airline_theme='badwolf'
 endif
 
 "}}}
