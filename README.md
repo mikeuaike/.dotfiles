@@ -1,6 +1,6 @@
 # .dotfiles
 My NeoVim Setup!
-
+  ~Notebook Version~
 Most of the setup came from @craftzdog's Youtube Tutorial
 
 --- Notable Changes ---
