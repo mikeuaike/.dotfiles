@@ -91,7 +91,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -120,6 +119,10 @@ alias nemo="source $HOME/nemo/nemo_start.sh"
 # Config Java
 JAVA_HOME=/home/mikeuaike/apps/jdk11
 export JAVA_HOME
+# Custom Commands!
+alias ugay='python3 ~/lab/ugay.py'
+alias vi='/usr/bin/nvim'
+alias dt='cd ~/.dotfiles'
 
 PATH=$PATH:$JAVA_HOME/bin
 export PATH 
